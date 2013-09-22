@@ -1,0 +1,19 @@
+{
+  "name": "etrade-demo-app",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "supervisor app.js",
+    "test": "mocha -u tdd"
+  },
+  "dependencies": {
+    "express": "3.4.0",
+    "jade": "0.35.0",
+    "jquery" : "1.7.3",
+    "mongojs": "0.9.3",
+    "mongodb": "1.3.19"
+  },
+  "devDependencies": {
+   "should": ">= 0.0.1"
+  }
+}
