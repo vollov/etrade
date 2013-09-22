@@ -1,3 +1,8 @@
 #npm install express -g
 $express --sessions etrade
 
+git config --global user.name "dustin.zhang"
+git config --global user.email vollov.ca@gmail.com
+git init
+git remote add origin git@github.com:vollov/etrade.git
+git push -u origin master
